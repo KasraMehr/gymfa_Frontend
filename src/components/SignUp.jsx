@@ -8,7 +8,7 @@ function SignUp() {
   return (
     <div className="grid grid-cols-2 p-5" dir='rtl'>
       <div className="text-white">
-        <img src={Logo} alt="Logo" className=""/>
+        <img src={Logo} alt="Logo" className="pr-5"/>
         <div className="mt-12 items-center">
             <div className="text-3xl font-bold flex justify-center">
               <div className="pl-2">همین حالا</div>
