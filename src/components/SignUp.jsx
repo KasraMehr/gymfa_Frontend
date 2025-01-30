@@ -53,8 +53,8 @@ function SignUp() {
         </div>
 
       </div>
-      <div className="">
-        <img src={signup1} alt="signup1" className="max-h-screen min-w-full"/>
+      <div className=""  dir='ltr'>
+        <img src={signup1} alt="signup1" className="h-[94.5vh] w-[92%] "/>
       </div>
     </div>
   )
