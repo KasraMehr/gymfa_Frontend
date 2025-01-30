@@ -9,9 +9,10 @@ export default {
       'bg': '#262626',
       'primary': '#D90A14',
       'accent': '#D5D5D5',
-      'white' : '#fff'
+      'white': '#FFFFFF',
+      'black' : '#000000',
     }
-
+    ,extend: {},
   },
   plugins: [],
 }
