@@ -40,7 +40,7 @@ function SignUp() {
           <div className="">کنید.</div>
         </div>
         <div className="flex justify-center mt-5" dir="ltr">
-          <input type="text" placeholder="   09XXXXXXXXX" className="bg-bg border rounded-xl shadow-2xl h-12 w-3/5"/>
+          <input type="text" placeholder="0 9 X X X X X X X X X" className="bg-bg border rounded-xl shadow-2xl h-12 w-3/5  pl-5"/>
         </div>
         <div className="flex justify-center mt-10 text-xl" dir="ltr">
           <button className="bg-primary rounded-xl shadow-2xl h-8 w-1/3 ">
