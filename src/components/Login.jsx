@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/logo.svg";
-import login1 from "../assets/login1.png";
+import Slider from "./SignUp/Slider";
 
 function Login() {
   return (
@@ -14,7 +14,7 @@ function Login() {
               <div className="text-primary">دوست من!</div>
             </div>
 
-            <div className="font-size-xl justify-center flex mt-5">
+            <div className="font-size-xl justify-center flex mt-5 ">
               از دیدن دوباره‌ات خیلی خوشحالیم.
             </div>
             <div className="font-size-xl justify-center flex pt-12 mt-5">
@@ -40,12 +40,8 @@ function Login() {
             </div>
           </div>
         </div>
-        <div>
-          <img
-            src={login1}
-            alt="login1"
-            className="max-h-screen pr-5 min-w-full"
-          />
+        <div dir='ltr'>
+          <Slider/>
         </div>
       </div>
     </>
