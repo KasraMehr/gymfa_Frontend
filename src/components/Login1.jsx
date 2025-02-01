@@ -2,7 +2,7 @@ import { useState } from "react";
 import Logo from "../assets/Logo.svg";
 import Slider from "./SignUp/Slider";
 
-function Login() {
+function Login1() {
   return (
     <>
       <div dir="rtl" className="grid grid-cols-2 max-w p-5">
@@ -48,4 +48,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login1;

@@ -4,7 +4,7 @@ import "../../components/SignUp/SignUp.css";
 import "../SignUp/SignUp.css";
 import Slider from "./Slider";
 
-const SignUp = () => {
+const SignUp1 = () => {
   const [active, setActive] = useState("1");
 
   const handleClick = (event) => {
@@ -92,4 +92,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUp1;
