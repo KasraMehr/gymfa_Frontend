@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.svg";
-import Slider from "./SignUp/Slider";
+import Slider from "./SignUp/Slider.jsx";
 
 function Login1() {
   return (
