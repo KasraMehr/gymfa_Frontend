@@ -3,7 +3,7 @@ import Logo from "../assets/Logo.svg";
 import signup1 from "../assets/signup1.png";
 import "../index.css";
 
-function SignUp() {
+function SignUp2() {
   return (
     <div className="grid grid-cols-2 p-5" dir="rtl">
       <div className="text-white">
@@ -64,4 +64,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default SignUp2;

@@ -1,13 +1,13 @@
 import { useState } from "react";
-import logo from "../assets/logo.svg";
+import Logo from "../assets/Logo.svg";
 import login1 from "../assets/login1.png";
 
-function Login() {
+function Login2() {
   return (
     <>
       <div dir="rtl" className="grid grid-cols-2 max-w p-5">
         <div className="">
-          <img src={logo} alt="logo" className="" />
+          <img src={Logo} alt="Logo" className="" />
           <div className="text-white mt-12 ">
             <div className="text-3xl font-bold justify-center flex mt-5">
               <div className="pl-2 text-primary">کد</div>
@@ -66,4 +66,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login2;
