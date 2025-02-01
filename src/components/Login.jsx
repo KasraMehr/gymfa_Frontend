@@ -22,15 +22,15 @@ function Login() {
               <div className="text-primary ml-2">تلفن همراه </div>
               <div> خود را وارد نمایید </div>
             </div>
-            <div className="justify-center flex mt-5  shadow-2xl" dir="ltr">
+            <div className="justify-center flex mt-5 " dir="ltr">
               <input
-                className="bg-bg border rounded-xl h-12 w-3/5 pl-5"
+                className="bg-bg border rounded-xl shadow-2xl h-12 w-3/5 pl-5"
                 type="text"
                 placeholder="0 9 X X X X X X X X X "
               />
             </div>
             <div className="justify-center flex">
-              <button className=" bg-primary border-primary border rounded-lg h-8 mt-10 w-2/6">
+              <button className=" bg-primary border-primary border  rounded-lg h-8 mt-10 w-2/6">
                 دریافت رمز یکبار مصرف
               </button>
             </div>
@@ -40,13 +40,13 @@ function Login() {
             </div>
           </div>
         </div>
-        <div>
-          <img
-            src={login1}
-            alt="login1"
-            className="max-h-screen pr-5 min-w-full"
-          />
-        </div>
+        <div className="" dir="ltr">
+                 <img
+                   src={login1}
+                   alt="login1"
+                   className="h-[94.5vh] pr-5 w-[94%]"
+                 />
+               </div>
       </div>
     </>
   );
