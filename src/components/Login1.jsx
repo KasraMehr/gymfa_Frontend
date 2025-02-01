@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.svg";
-import login1 from "../assets/login1.png";
+import Slider from "./SignUp/Slider.jsx";
 
 function Login1() {
   return (
@@ -17,20 +17,23 @@ function Login1() {
             <div className="font-size-xl justify-center flex mt-5">
               از دیدن دوباره‌ات خیلی خوشحالیم.
             </div>
+
             <div className="font-size-xl justify-center flex pt-12 mt-5">
               <div className="pl-2">شماره </div>
               <div className="text-primary ml-2">تلفن همراه </div>
               <div> خود را وارد نمایید </div>
             </div>
-            <div className="justify-center flex mt-5 " dir="ltr">
+            <div className="justify-center flex mt-5  shadow-2xl" dir="ltr">
               <input
-                className="bg-bg border rounded-xl shadow-2xl h-12 w-3/5 pl-5"
+                className="bg-bg border rounded-xl h-12 w-3/5 pl-5"
+
                 type="text"
                 placeholder="0 9 X X X X X X X X X "
               />
             </div>
             <div className="justify-center flex">
-              <button className=" bg-primary border-primary border  rounded-lg h-8 mt-10 w-2/6">
+
+              <button className=" bg-primary border-primary border rounded-lg h-8 mt-10 w-2/6">
                 دریافت رمز یکبار مصرف
               </button>
             </div>
@@ -40,13 +43,10 @@ function Login1() {
             </div>
           </div>
         </div>
-        <div className="" dir="ltr">
-                 <img
-                   src={login1}
-                   alt="login1"
-                   className="h-[94.5vh] pr-5 w-[94%]"
-                 />
-               </div>
+        <div dir='ltr'>
+          <Slider/>
+        </div>
+
       </div>
     </>
   );

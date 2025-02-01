@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.svg";
 import login1 from "../assets/login1.png";
+import Slider from "./SignUp/Slider.jsx";
+
 
 function Login2() {
   return (
@@ -59,7 +61,7 @@ function Login2() {
           </div>
         </div>
         <div className="" dir="ltr">
-          <img src={login1} alt="login1" className="h-[94.5vh] pr-5 w-[94%]" />
+          <Slider/>
         </div>
       </div>
     </>
