@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.svg";
+import Logo from "../assets/Logo.svg";
 import Slider from "./SignUp/Slider";
 
 function Login() {
@@ -7,7 +7,7 @@ function Login() {
     <>
       <div dir="rtl" className="grid grid-cols-2 max-w p-5">
         <div className="">
-          <img src={logo} alt="logo" className="" />
+          <img src={Logo} alt="Logo" className="" />
           <div className="text-white mt-12 ">
             <div className="text-3xl font-bold justify-center flex">
               <div className="pl-2">سلام </div>
