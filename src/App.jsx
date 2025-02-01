@@ -4,7 +4,6 @@ import SignUp1 from './components/SignUp/SignUp1.jsx'
 import Login2 from './components/Login2.jsx'
 import SignUp2 from './components/SignUp2.jsx'
 
-
 function App() {
 
   return (

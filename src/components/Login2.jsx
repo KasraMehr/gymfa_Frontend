@@ -3,6 +3,7 @@ import Logo from "../assets/Logo.svg";
 import login1 from "../assets/login1.png";
 import Slider from "./SignUp/Slider.jsx";
 
+
 function Login2() {
   return (
     <>
